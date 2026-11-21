@@ -3,16 +3,16 @@ using namespace std;
 
 Element* ElementFactory::createElement(int id) {
     if (id == 1){
-        return new BasicElement(1, "Fire", "Basic Elements", "Produces heat and light");
+        return new BasicElement(1, "Fire", "Basic Elements", "Produces heat and light",true);
     }
     else if (id == 2){
-        return new BasicElement(2, "Water", "Basic Elements", "Essential for life");
+        return new BasicElement(2, "Water", "Basic Elements", "Essential for life",true);
     }
     else if (id == 3){
-        return new BasicElement(3, "Earth", "Basic Elements", "Soil and ground");
+        return new BasicElement(3, "Earth", "Basic Elements", "Soil and ground",true);
     }
     else if (id == 4){
-        return new BasicElement(4, "Air", "Basic Elements", "Air around us");
+        return new BasicElement(4, "Air", "Basic Elements", "Air around us",true);
     }
     else if (id == 5){
         return new CraftedElement(5, "Steam", "Natural Phenomena", "Water vapor", "Recipe");
