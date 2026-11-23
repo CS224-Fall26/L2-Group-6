@@ -1,5 +1,6 @@
 #include "RecipeBook.hpp"
 using namespace std;
+
 RecipeBook::RecipeBook() {
     count = 0;
     addRecipe("Water", "Fire", "Steam");
@@ -48,4 +49,6 @@ Recipe RecipeBook::getRecipe(int index) const {
     Recipe empty = {"", "", ""};
     return empty;
 }
-int RecipeBook::getCount() const { return count; }
+int RecipeBook::getCount() const { 
+    return count;
+}
