@@ -1,10 +1,12 @@
 #ifndef GAMESESSION_HPP
 #define GAMESESSION_HPP
+
+#include <string>
 #include "Player.hpp"
 #include "Inventory.hpp"
 #include "RecipeBook.hpp"
-#include "ElementFactory.hpp"
-#include <string>
+#include "Element.hpp"
+
 using namespace std;
 struct CombinationResult {
     string element;

@@ -1,4 +1,8 @@
 #include "GameSession.hpp"
+#include "Player.hpp"
+#include "RecipeBook.hpp"
+#include "Inventory.hpp"
+#include "ElementFactory.hpp"
 #include "SaveManager.hpp"
 using namespace std;
 GameSession::GameSession() {
